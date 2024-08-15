@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.links {
+    font-family: 'Rubik', Courier, monospace ;
+    
+    font-size: 20px;
+
+    text-decoration: none;
+    color: rgb(219, 136, 150);
+}
+
+.links:hover{
+    background: lightpink;
+    color: rgb(133, 24, 133);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+
+    /* list-style: none; */
+}
+
+li {
+    list-style: square inside url('./icon.png');
+    background-position: 0 center; /* Centraliza verticalmente o ícone */
+}
+
+h1 {
+    font-family: 'Matemasie';
+    font-weight: 200;
+    font-size: 25px;
+    color: rgb(236, 88, 137);
+}
+
+h2 {
+    font-family: 'Matemasie';
+    font-weight: 200;
+    font-size: 25px;
+    color: rgb(218, 115, 149);
+}
+
+p {
+    font-family: 'Rubik';
+    justify-content: space-between;
+    color: rgba(182, 72, 90, 0.87);
+    font-size: 17px;
+}
+
+.voltar{
+    text-decoration: none;
+    color: rgb(218, 125, 182);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.voltar:hover {
+    background: rgb(146, 74, 86);
+    color: rgb(224, 183, 190);
+    font-size: 20px;
+}
